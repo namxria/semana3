@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>cadastro de alunos</h1>
+    <form>
+        <fieldset>
+            <legend>dados:</legend>
+        <label for="nome">nome:</label>
+            <input type="text" nome="nome" id="nome" placeholder="digite seu nome...">
+            <br>
+            <br>
+            <label for="sobrenome">sobrenome:</label>
+            <input type="text" nome="sobrenome" id="sobrenome" placeholder="digite seu sobrenome...">
+            <br>
+            <br>
+            <label for="email">email:</label>
+            <input type="email" nome="email" id="email" placeholder="digite seu email...">
+            <br>
+            <br>
+            <label for =senha>senha:</label>
+            <input type="password" nome="senha" id="senha" placeholder="digite sua senha...">
+        </fieldset>
+            <br>
+            <br>
+            <label for="area">comentarios:</label>
+            <br>
+            <textarea nome="area" id="area" cols="32" rows="4" placeholder="digite seu comentario..."></textarea>
+            <br>
+            <br>
+            <label for="opcao">qual sua cor favorita:</label>
+            <input type="radio" name="opcao" checked>azul
+            <input type="radio" name="opcao">vermelho
+            <input type="radio" name="opcao">amarelo
+            <br>
+            <br>
+            <label for="opcao2">qual seu per favorito:</label>
+            <input type="radio" name="opcao2" checked>gato
+            <input type="radio" name="opcao2">cachorro
+            <input type="radio" name="opcao2">papagaio
+            <input type="radio" name="opcao2">jacare
+            <br><br>
+            <label for="estado">estado:</label>
+            <select name="estado" id="estado">
+                <option value="sc">santa catarina</option>
+                <option value="sp">sao paulo</option>
+                <option value="rs">rio grande do sul</option>
+                <option value="rj">rio de janeiro</option>
+                <option value="mt">mato grosso</option>
+            </select>
+            <br>
+            <br>
+            <label for="itens">escolha os itens de informatica:</label>
+            <input type="checkbox" name="monitor" id="monitor" checked>monitor
+            <input type="checkbox" name="teclado" id="teclado">teclado 
+            <input type="checkbox" name="impressora" id="impressora">impressora
+            <br>
+            <br>
+            <input type="button" value="botao simples">
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar formulario">
+    </form>
+</body>
+</html>
